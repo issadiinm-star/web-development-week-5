@@ -123,4 +123,3 @@ a static webpage into an interactive application by
 collecting user input, storing data, performing calculations,
 and displaying results.
 # web-development-week-5
-# web-development-week-5
