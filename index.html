@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpendWise | JavaScript Foundation</title>
+  <link rel="preconnect" href="https://googleapis.com" />
+  <link rel="preconnect" href="https://gstatic.com" crossorigin />
+  <link
+    href="https://googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-shell">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="logo-dot"></span>
+        <h2>SpendWise</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active">Dashboard</a>
+        <a href="#" class="nav-item">Transactions</a>
+        <a href="#" class="nav-item">Categories</a>
+        <a href="#" class="nav-item">Savings Goals</a>
+        <a href="#" class="nav-item">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-wrapper">
+      <header class="topbar">
+        <div>
+          <h1>Monthly Budget Overview</h1>
+          <p>Open your browser Console (F12 / Inspect &rarr; Console) to view your calculated results</p>
+        </div>
+        <button type="button" class="topbar-btn" onclick="location.reload()">Re-enter Budget Data</button>
+      </header>
+
+      <main class="content-area">
+        <section class="cards-grid">
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Rent &amp; Housing</span>
+              <span class="category-tag">Fixed</span>
+            </div>
+            <p class="card-amount">$850.00</p>
+            <div class="card-footer">
+              <span>Category 1</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Food &amp; Groceries</span>
+              <span class="category-tag">Essential</span>
+            </div>
+            <p class="card-amount">$340.50</p>
+            <div class="card-footer">
+              <span>Category 2</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Transport</span>
+              <span class="category-tag">Daily</span>
+            </div>
+            <p class="card-amount">$115.00</p>
+            <div class="card-footer">
+              <span>Category 3</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Utilities &amp; Internet</span>
+              <span class="category-tag">Bills</span>
+            </div>
+            <p class="card-amount">$145.00</p>
+            <div class="card-footer">
+              <span>Category 4</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Entertainment</span>
+              <span class="category-tag">Leisure</span>
+            </div>
+            <p class="card-amount">$68.00</p>
+            <div class="card-footer">
+              <span>Category 5</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-title">Savings</span>
+              <span class="category-tag">Goal</span>
+            </div>
+            <p class="card-amount">$500.00</p>
+            <div class="card-footer">
+              <span>Category 6</span>
+              <span class="status-pill">Tracked</span>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Requirement 1: Properly link JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
